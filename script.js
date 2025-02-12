@@ -1,5 +1,5 @@
 const pessoasSerieA = [
-    {nome: "group_peron", titulos: "1", tiktok: "@peron_xly", imagem: "peron_xly.png"}
+  //   {nome: "group_peron", titulos: "1", tiktok: "@peron_xly", imagem: "peron_xly.png"}
 ];
 
 function criarRanking(pessoas, elementId) {
