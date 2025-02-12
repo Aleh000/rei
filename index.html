@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa Rei da Colina - Batalhas do TikTok</title>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilo para os links */
+        .internal-link {
+            color: white;
+            text-decoration: underline;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+
+        .internal-link:hover {
+            color: #ffcc00; /* Cor ao passar o mouse */
+            text-decoration: none; /* Remove o sublinhado ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-background"></div>
+        <div class="header-content">
+            <i class="fas fa-crown crown-icon"></i>
+            <div class="main-title">
+                <span class="copa-text">COPA</span>
+                <span class="rei-text" style="font-family: 'Arial', sans-serif;">REI DA COLINA 2</span>
+                <a href="#como-funciona" class="internal-link">Como funciona?</a>
+                <a href="#video" class="internal-link">Batalha Mais Insana Até Agora</a>
+            </div>
+            <div class="tiktok-container">
+                <h2 class="subtitle">Batalhas do TikTok</h2>
+                <i class="fab fa-tiktok tiktok-icon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="subtitle" style="color: white; font-size: 1.5em;">Tabela</h2>
+        <div class="ranking-container" style="width: 100%;">
+            <table style="width: 100%;">
+                <thead>
+                    <tr>
+                        <th>Posição</th>
+                        <th>Nome</th>
+                        <th>Títulos</th>
+                        <th>TikTok</th>
+                    </tr>
+                </thead>
+                <tbody id="rankingListA">
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Seção de Guia de Patentes -->
+
+        <div class="info-section">
+            <h2 class="subtitle" style="color: white; font-size: 1.5em;">Como funciona a Copa?</h2>
+            <p id="como-funciona" style="color: white; font-size: 1em;">
+                A Copa Rei da Colina é uma competição que ocorre durante minhas transmissões ao vivo, onde os participantes enfrentam-se em batalhas de um contra um (x1). Durante cada live, os três primeiros colocados são destacados no ranking. Ao final da transmissão, o jogador que estiver em primeiro lugar conquista o título de Rei da Colina e é posicionado na tabela.
+                <br><br>
+                À medida que os jogadores vencem batalhas, eles acumulam títulos e avançam na classificação. o primeiro colocado ganhara um Trofeu exclusivo! que será enviado para a sua residência sem custo algum. Para participar, basta garantir a primeira posição nas lives.
+            </p>
+        </div>
+
+        <!-- Seção do vídeo -->
+        <div class="video-section" id="video" style="margin-top: 20px; text-align: center;">
+            <h2 class="subtitle" style="color: white; font-size: 1.5em;">Mendes vs Wtzangetsu</h2>
+            <iframe src="https://www.tiktok.com/embed/7443571848559775032" width="325" height="575" style="border: none; border-radius: 10px;" allowfullscreen></iframe>
+        </div>
+        <!-- Fim da Seção do vídeo -->
+    </div>
+
+    <footer>
+        <p>Todos os direitos reservados © aleatoriianodois</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
